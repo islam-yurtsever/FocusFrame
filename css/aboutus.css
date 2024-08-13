@@ -1,0 +1,53 @@
+:root {
+  --black: #121212;
+  --white: #fff;
+  --brown: #bea69e;
+  --font-family: "DM Sans", sans-serif;
+}
+
+.aboutposition {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.abouttitle {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 112%;
+  letter-spacing: -0.04em;
+  color: var(--white);
+  margin-top: 150px;
+}
+
+.aboutspan {
+  color: var(--brown);
+}
+
+.abouttextone {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 125%;
+  letter-spacing: -0.02em;
+  color: var(--white);
+  max-width: 314px;
+}
+
+.abouttexttwo {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 125%;
+  letter-spacing: -0.02em;
+  color: var(--white);
+  max-width: 276px;
+}
+
+.aboutright {
+  display: flex;
+  gap: 40px;
+  margin-top: 60px;
+  margin-left: 610px;
+}

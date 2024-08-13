@@ -1,0 +1,94 @@
+:root {
+  --black: #121212;
+  --white: #fff;
+  --brown: #bea69e;
+  --font-family: "DM Sans", sans-serif;
+}
+
+.coursestitle {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 112%;
+  letter-spacing: -0.04em;
+  color: var(--white);
+}
+
+.coursesspan {
+  color: var(--brown);
+}
+
+.coursestext {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 125%;
+  letter-spacing: -0.02em;
+  color: var(--white);
+  width: 565px;
+}
+
+.coursesdecs {
+  display: flex;
+  gap: 410px;
+  margin-top: 150px;
+}
+
+.coursescards {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  width: 400px;
+  height: 452px;
+  background: linear-gradient(180deg, #060707 0%, #1d1d1d 100%);
+  position: relative;
+  margin-top: 50px;
+}
+
+.cardno {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 129%;
+  letter-spacing: -0.02em;
+  color: rgba(255, 255, 255, 0.4);
+  position: absolute;
+  margin: 32px 354px 402px 32px;
+}
+
+.cardtitle {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 114%;
+  color: var(--white);
+  max-width: 265px;
+  position: absolute;
+  margin: 96px 103px 292px 32px;
+}
+
+.cardtext {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 125%;
+  letter-spacing: -0.02em;
+  color: rgba(255, 255, 255, 0.5);
+  max-width: 336px;
+  position: absolute;
+  margin: 360px 32px 32px 32px;
+}
+
+.cardicon {
+  position: absolute;
+  margin: 32px 32px 388px 336px;
+}
+
+.cardicon:hover {
+  border-radius: 100%;
+  fill: var(--brown);
+}
+
+.coursescardsposition {
+  display: flex;
+  gap: 20px;
+}

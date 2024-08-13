@@ -1,0 +1,23 @@
+:root {
+  --black: #121212;
+  --white: #fff;
+  --brown: #bea69e;
+  --font-family: "DM Sans", sans-serif;
+}
+
+.blocktitle {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 59px;
+  line-height: 108%;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--brown);
+  margin-top: 174px;
+  text-align: center;
+  justify-content: center;
+}
+
+.blockspan {
+  color: var(--white);
+}

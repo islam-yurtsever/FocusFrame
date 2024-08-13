@@ -1,0 +1,56 @@
+:root {
+  --black: #121212;
+  --white: #fff;
+  --brown: #bea69e;
+  --font-family: "DM Sans", sans-serif;
+}
+
+.mentorstitle {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 112%;
+  letter-spacing: -0.04em;
+  color: var(--white);
+}
+
+.mentorsspan {
+  color: var(--brown);
+}
+
+.mentorsheader {
+  margin-top: 150px;
+}
+
+.person {
+  display: flex;
+  gap: 100px;
+  margin-top: 50px;
+  margin-left: 103px;
+  margin-right: 103px;
+}
+
+.persontitle {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 114%;
+  text-align: center;
+  color: var(--white);
+}
+
+.persontext {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 129%;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.persondecs {
+  margin-top: 16px;
+  align-items: center;
+  justify-content: center;
+}
